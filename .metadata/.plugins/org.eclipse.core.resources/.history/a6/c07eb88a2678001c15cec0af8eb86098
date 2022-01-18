@@ -1,0 +1,53 @@
+<%@page import="java.util.Random"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+
+<%!
+/*
+	페이지를 접속할 때마다 랜덤으로 생성된 숫자값을 출력(메소드 사용)
+	오늘의 숫자 : 랜덤숫자
+	2.페이지 누적 요청 숫자 계산 출력
+	페이지 누적 요청:수 (int)
+	3.요청한 페이지 개별 요청 숫자를 표시 
+	페이지 개별요청 : 개별요청수(int)
+*/
+int v=0;
+Random ran=new Random();
+public int rannum(int r){
+	return r;
+}
+
+%>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+		
+<%
+while(true){
+int num=ran.nextInt(10);
+out.print("랜덤숫자 : "+rannum(num)+"<bn>");
+out.print("페이지 누적 요청 : "+v);
+v++;
+}
+%>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
