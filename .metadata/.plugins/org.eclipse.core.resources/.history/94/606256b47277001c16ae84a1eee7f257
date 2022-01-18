@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>이미지 및 링크</title>
+</head>
+<body>
+<!-- 페이지 이미지를 넣을 때, img태그 -->
+<!-- src-url 이미지 위치,alt="text" 이미지 로드 실패시 참조 -->
+<img src="https://pds.joongang.co.kr/news/component/htmlphoto_mmdata/202111/07/762ce144-d666-4790-8609-c78416910e88.jpg" alt="">
+</body>
+</html>

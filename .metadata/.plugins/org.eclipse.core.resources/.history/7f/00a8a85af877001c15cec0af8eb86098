@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>테이블 태그</title>
+</head>
+<body>
+<!-- 테이블 태그, table, tr, td, th(제목) -->
+<table border="1" margin="1px"padding="1">
+<tr margin="1">
+<td>1</td>
+<td>2</td>
+<td>3</td>
+</tr>
+<tr margin="1">
+<td>4</td>
+<td>5</td>
+<td>6</td>
+</tr>
+<tr margin="1">
+<td>7</td>
+<td>8</td>
+<td>9</td>
+</tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<%@page import="java.util.ArrayList" %>
+<%@page import="java.util.List" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<% 
+	//ArrayList<String> list =new ArrayList<>();
+	List<String> list=new ArrayList<>();
+	list.add("홍길동");
+	list.add("홍길자");
+	
+%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+리스트의 크기 : 
+리스트의 형태 : 
+맵의 크기 : 
+맵의 형태 : 
+랜덤 값 : 
+날짜 : 
+
+</body>
+</html>
