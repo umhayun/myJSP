@@ -1,4 +1,4 @@
-GitRepositoriesView.GitDirectories=C\:\\gitjsp;
-GitRepositoriesView.GitDirectories.relative=C\:\\gitjsp;
+GitRepositoriesView.GitDirectories=C\:\\gitjsp;C\:\\myJSP\\.git;
+GitRepositoriesView.GitDirectories.relative=C\:\\gitjsp;.git;
 RepositorySearchDialogSearchPath=C\:\\gitjsp
 eclipse.preferences.version=1

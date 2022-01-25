@@ -9,6 +9,6 @@
 <body>
 	<a href="testJSP.jsp">jsp로 이동</a><br>
 	<a href="./apple">servlet(TestServlet.java)으로 이동</a><br>
-	<a href="./Banana">servlet(ServletBasic)으로 이동</a>
+	<a href="./peach">servlet(ServletBasic)으로 이동</a>
 </body>
 </html>
